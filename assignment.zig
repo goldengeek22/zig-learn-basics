@@ -1,10 +1,10 @@
 const std = @import("std");
 
 pub fn main() void {
-    const linuxCreatorName = "Linus Torvalds";
-    const linuxCreationDate: u16 = 2023;
+    const zigCreatorName = "Andrew Kelley";
+    const zigCreationDate: u16 = 2015;
 
-    std.debug.print("{s} created Linux back in {}\n", .{linuxCreatorName, linuxCreationDate});
+    std.debug.print("{s} created the Zig programming language back in {}\n", .{zigCreatorName, zigCreationDate});
 }
 
 
